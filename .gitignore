@@ -1,0 +1,24 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Sensitive files
+terraform.tfvars
+*.pem
+*.key
+*.env
+
+# IDE/system files
+*.DS_Store
+.vscode/
+.idea/
+
+# Crash logs and plan output
+crash.log
+*.log
+*.tfplan
+
+# Python cache (if you script anything)
+__pycache__/
+*.pyc
