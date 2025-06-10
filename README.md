@@ -59,8 +59,8 @@ SELECT * FROM companies;
 SELECT * FROM employees;
 ```
 
-The output confirmed that the data was successfully migrated and accessible.
-
+The output confirmed that the data was successfully migrated and accessible. PostgreSQL RDS Migration – Data Validation in Target DB (psql)
+![Data Validation in Target DB](./amazon-linux-install.png)
 ## Summary
 
 This project represents a full lifecycle of secure database migration from on-premise to AWS. It integrates multiple AWS services and adheres to DevOps best practices including IaC, secure credential handling, and minimal manual intervention. It also involved hands-on troubleshooting and decision-making under real constraints, which reflects the kinds of challenges DevOps engineers face daily.
