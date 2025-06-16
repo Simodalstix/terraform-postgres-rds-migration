@@ -60,7 +60,7 @@ SELECT * FROM employees;
 ```
 
 Screenshot showing successful connection to the RDS PostgreSQL instance using psql. It confirms that the companies and employees tables exist and that data was successfully migrated. The connection uses SSL and validates that RDS access via Bastion + SSM works as expected.
-![RDS PostgreSQL connection verification](rds-psql-connection-verification.png)
+![RDS PostgreSQL connection verification](./screenshots/rds-psql-connection-verification.png)
 
 ## Summary
 
